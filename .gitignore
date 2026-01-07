@@ -1,0 +1,26 @@
+# Build output
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Workspace-level (do not commit)
+.metadata/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+#
+.settings/
+*~
+*.swp
+.venv*/
+.vscode/
+__pycache__/
