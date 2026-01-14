@@ -11,10 +11,10 @@ Raspberry Pi 환경에서 I2C / SPI 통신과 GPIO 인터럽트를 직접 제어
 - Kernel ↔ User Space 연계 구조 설계 및 구현
 ---
 ## 🧩 하드웨어 구성
-<img width="500" height="359" alt="image" src="https://github.com/user-attachments/assets/c2f650c3-3dfd-4fb9-b50d-11e5ff0f931a" />
+<img src="./docs/1.png" width="800" height="519" alt="image">
 <br>
 </br>
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f533b4aa-2348-41f3-9ae5-500c1af5c3db" />
+<img src="./docs/2.png" width="800" height="519" alt="image">
 
 | 구성 요소                 | 인터페이스            | 역할            |
 | --------------------- | ---------------- | ------------- |
@@ -27,7 +27,7 @@ Raspberry Pi 환경에서 I2C / SPI 통신과 GPIO 인터럽트를 직접 제어
 
 ---
 ## 🏗 소프트웨어 아키텍처
-<img width="1020" height="547" alt="image" src="https://github.com/user-attachments/assets/6dd343c9-cbfe-4605-a3fe-61a090318f2c" />
+<img src="./docs/3.png" width="800" height="519" alt="image">
 
 | 계층           | 구성             | 설명                      |
 | ------------ | -------------- | ----------------------- |
@@ -39,7 +39,7 @@ Raspberry Pi 환경에서 I2C / SPI 통신과 GPIO 인터럽트를 직접 제어
 
 ---
 ### 상태전이 구조
-<img width="800" height="571" alt="image" src="https://github.com/user-attachments/assets/cf98c5e8-4f33-4c30-b1fe-4252f5855905" />
+<img src="./docs/4.png" width="800" height="519" alt="image">
 
 | 상태           | 설명             |
 | ------------ | -------------- |
@@ -57,8 +57,8 @@ Raspberry Pi 환경에서 I2C / SPI 통신과 GPIO 인터럽트를 직접 제어
 
 ---
 ## 🔬 요소기술
-<img width="800" height="586" alt="image" src="https://github.com/user-attachments/assets/89b0facd-2786-4cae-81c9-06b283fc4d17" />
-<img width="800" height="586" alt="image" src="https://github.com/user-attachments/assets/b85a934f-2cb8-497d-916f-217bd7b89ba3" />
+<img src="./docs/5.png" width="800" height="519" alt="image">
+<img src="./docs/6.png" width="800" height="519" alt="image">
 
 | 요소기술          | 적용 내용            | 특징                   |
 | ------------- | ---------------- | -------------------- |
